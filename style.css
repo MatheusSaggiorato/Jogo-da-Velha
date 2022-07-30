@@ -1,0 +1,70 @@
+body {
+    user-select: none;
+    text-align: center;
+    background-image:url(./wallpaper/jogodavelha.jpg);
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    color: #F03A17;
+    text-shadow: black 2px 2px 1px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.o {
+    position: relative;
+}
+
+.o:after {
+    position: absolute;
+    content: "\2B55";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x:after {
+    position: absolute;
+    content: "\274C";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.restart {
+    margin-top: 30px;
+    font-size: 25px;
+    color: #F03A17;
+    font-weight: bold;
+    border: 1px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    text-shadow: black 2px 2px 1px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.restart:active {
+    transform: scale(1.05);
+}
