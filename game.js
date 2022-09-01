@@ -53,23 +53,3 @@ function isWin() {
 
     return false;
 }
-
-function draw() {
-
-    // for (let i = 0; i < winStates.length; i++) {
-
-    //     let seq = winStates[i];
-
-    //     let pos1 = seq[0];
-    //     let pos2 = seq[1];
-    //     let pos3 = seq[2];
-
-    //     if (board[pos1] != board[pos2] &&
-    //         board[pos1] != board[pos3]) {
-
-    //         return true;
-    //     }
-    // }
-
-    // return false;
-}
